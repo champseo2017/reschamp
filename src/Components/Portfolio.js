@@ -1,6 +1,27 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux";
+import { locale } from "../locales/index";
 
 class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+    // Don't call this.setState() here!
+    this.state = {
+      Educationth:"การศึกษา"
+    };
+    //this.handleClick = this.handleClick.bind(this);
+  }
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.datalanth === "th") {
+      this.setState({
+        Educationth: locale.t("Educationth"),
+      });
+    } else if (nextProps.datalanen === "en") {
+      this.setState({
+        Educationth: locale.t("Educationen"),
+      });
+    }
+  }
   render() {
 
     if(this.props.data){
@@ -42,4 +63,11 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+function mapStateToProps(state) {
+  return {
+    datalanth: state.lanthReducers.lanth.data,
+    datalanen: state.lanenReducers.lanen.data
+  };
+}
+
+export default connect(mapStateToProps)(Portfolio);

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Translate, Localize } from "react-i18nify";
 import { locale } from "../locales/index";
 import { connect } from "react-redux";
 import { Changelanth, Changelanen } from "../actions/lanAction";

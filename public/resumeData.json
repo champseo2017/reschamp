@@ -6,13 +6,13 @@
     "image":"profilepic.jpg",
     "bio":"ชื่อแชมป์เป็นเด็กที่เติมโต ในสถานรับเลี้ยงเด็กกำพร้าที่เชียงใหม่ สนใจในการเขียนโปรแกรม และ ได้เริ่มศึกษาด้วยตนเองเรื่อยมา การศึกษานั้นจบจากมหาวิทยาลัยแม่โจ้ในสาขาระบบสารสนเทศทางธุรกิจของคณะบริหาร",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "boomgt222@gmail.com",
+    "phone": "+66 93-184-8557",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Chotana Road",
+      "city":"Chiang Mai",
+      "state":"Don Kaeo Sub-district, Mae Rim District",
+      "zip": "50180"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
@@ -31,12 +31,6 @@
         "school":"University?",
         "degree":"Masters in Beer tasting",
         "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],

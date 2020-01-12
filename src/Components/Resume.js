@@ -12,7 +12,8 @@ class Resume extends Component {
       schoolth: "มหาวิทยาลัย?",
       degreeth: "มหาวิทยาลัยแม่โจ้ ปริญญาตรี",
       graduatedth: "กุมภาพันธ์ 2016",
-      UniversityDetailsen: null
+      UniversityDetailsen: null,
+      Work: null
     };
     //this.handleClick = this.handleClick.bind(this);
   }
@@ -27,12 +28,14 @@ class Resume extends Component {
       if (this._isMounted) {
         let copystate = { ...this.state };
         copystate.UniversityDetailsen = null;
+        copystate.Work = null;
         this.setState({
           Educationth: locale.t("Educationth"),
           schoolth: locale.t("schoolth"),
           degreeth: locale.t("degreeth"),
           graduatedth: locale.t("graduatedth"),
-          UniversityDetailsen: copystate.UniversityDetailsen
+          UniversityDetailsen: copystate.UniversityDetailsen,
+          Work: copystate.Work
         });
       }
     } else if (
@@ -42,12 +45,14 @@ class Resume extends Component {
       if (this._isMounted) {
         let copystate = { ...this.state };
         copystate.UniversityDetailsen = locale.t("UniversityDetailsen");
+        copystate.Work = locale.t("Worken");
         this.setState({
           Educationth: locale.t("Educationen"),
           schoolth: locale.t("schoolen"),
           degreeth: locale.t("degreeen"),
           graduatedth: locale.t("graduateden"),
-          UniversityDetailsen: copystate.UniversityDetailsen
+          UniversityDetailsen: copystate.UniversityDetailsen,
+          Work: copystate.Work
         });
       }
     }
@@ -61,7 +66,8 @@ class Resume extends Component {
       schoolth,
       degreeth,
       graduatedth,
-      UniversityDetailsen
+      UniversityDetailsen,
+      Work
     } = this.state;
 
     if (this.props.data) {
@@ -124,7 +130,7 @@ class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>Work</span>
+              <span>{!Work ? "งาน" : Work}</span>
             </h1>
           </div>
 

@@ -1,26 +1,21 @@
 {
-    "_comment": "descriptionth",
     "descriptionth": "จงหิวและจงโง่อยู่เสมอ -Steve Jobs-",
     "descriptionen":"Stay Hungry, Stay Foolish -Steve Jobs-",
-    "_comment": "bio",
     "bioth": "ชื่อแชมป์เป็นเด็กที่เติมโต ในสถานรับเลี้ยงเด็กกำพร้าที่เชียงใหม่ สนใจในการเขียนโปรแกรม และ ได้เริ่มศึกษาด้วยตนเองเรื่อยมา การศึกษานั้นจบจากมหาวิทยาลัยแม่โจ้ในสาขาระบบสารสนเทศทางธุรกิจของคณะบริหาร",
     "bioen":" The champion name is the child who grows up. In an orphanage in Chiang Mai Interested in programming and have started to study by oneself continuously The study was graduated from Mae Jo University in the business information system of the Faculty of Management.",
-    "_comment": "About Me",
     "AboutMeth": "เกียวกับฉัน",
     "AboutMeen":"About Me",
-    "_comment": "Contact",
     "Contactth": "รายละเอียดการติดต่อ",
     "Contacten":"Contact Details",
-    "_comment": "Education",
     "Educationth": "การศึกษา",
     "Educationen":"Education",
-    "_comment": "school",
     "schoolth": "มหาวิทยาลัย?",
     "schoolen":"University?",
-    "_comment": "degree",
     "degreeth": "มหาวิทยาลัยแม่โจ้ ปริญญาตรี",
     "degreeen":"Maejo University Bachelor",
-    "_comment": "graduated",
     "graduatedth": "กุมภาพันธ์ 2016",
-    "graduateden":"February 2016"
+    "graduateden":"February 2016",
+    "UniversityDetailsth":"บริหารธุรกิจบัณฑิต สาขาวิชาระบบสารสนเทศทางธุรกิจ สร้างบัณฑิตให้ก้าวทันเทคโนโลยีสารสนเทศในแวดวงธุรกิจ มีความขยันอดทน สู้งานและคุณธรรม",
+    "UniversityDetailsen":"Bachelor of Business Administration Program in Business Information System"
+
 }

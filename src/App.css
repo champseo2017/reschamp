@@ -1,0 +1,14 @@
+p.place-text {
+    color: red !important;
+}
+
+input.location-search-input {
+    width: 50% !important;
+}
+div.suggestion-item,div.suggestion-item--active{
+    padding: 10px;
+}
+
+div.autocomplete-dropdown-container {
+    margin-bottom: 24px;
+}
